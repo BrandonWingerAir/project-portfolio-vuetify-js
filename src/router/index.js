@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeSectionView from '../views/HomeSectionView.vue'
+import HomeView from '../views/HomeView.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +8,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeSectionView
+    component: HomeView
   },
   {
     path: '/about',
