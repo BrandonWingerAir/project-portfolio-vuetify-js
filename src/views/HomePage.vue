@@ -14,7 +14,7 @@
             <br>
             ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
             <br>
-            ~ Vue.js + Laravel (Nuxt, Vuetify, Tailwind etc.)
+            ~ Vue.js + PHP (Laravel, Vuetify, Tailwind etc.)
           </p>
           <v-btn tile color="a7121d" dark>cv/résumé</v-btn>
         </v-col>
@@ -34,10 +34,11 @@
                     ● JavaScript animation, advanced calculator and games
                   </p>
                   <v-btn color="#03a9f4" dark text>
-                    know more
+                    more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
+
                 <div class="block-section bg-color-2">
                   <v-icon x-large class="ml-3" dark>
                     mdi-shopping
@@ -49,7 +50,23 @@
                     ● Custom designs or theme additions and improvement
                   </p>
                   <v-btn dark text>
-                    know more
+                    more info
+                    <v-icon right>mdi-arrow-right</v-icon>
+                  </v-btn>
+                </div>
+
+                <div class="block-section bg-color-1">
+                  <v-icon color="#039be5" x-large class="ml-3">
+                    mdi-palette-swatch
+                  </v-icon>
+                  <h3 class="white--text ml-3 mt-4">Branding</h3>
+                  <p class="grey--text  text--lighten-1 ml-3 mt-6">
+                    ● Documents & graphics (Logos, photograph editing etc.)
+                    <br>
+                    ● Adobe software and multimedia production
+                  </p>
+                  <v-btn color="#03a9f4" dark text>
+                    more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
