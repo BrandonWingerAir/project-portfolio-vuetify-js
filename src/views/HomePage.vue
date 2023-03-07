@@ -202,30 +202,45 @@
                     Let's work together on <br> your next project
                   </h1>
                   <p class="grey--text">
-                    - Brandon Winger-Air
+                    brandon.air.web@gmail.com
                     <br>
                   </p>
                 </v-col>
                 <v-col cols="5">
-                  <v-btn tile color="#0277bd" dark class="mt-16">Contact Me</v-btn>
+                  <v-btn tile color="#0277bd" dark class="mt-16">
+                    <a href="mailto:brandon.air.web@gmail.com" class="white--text text-decoration-none">Contact Me</a>
+                  </v-btn>
                 </v-col>
               </v-row>
             </div>
           </div>
+
+          <v-toolbar class="topToolbar" color="#111111" dark flat>
+            <div style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;">
+              <v-btn text>Home</v-btn>
+              <v-btn text>Projects</v-btn>
+              <v-btn text>About</v-btn>
+              <v-btn text>Contact</v-btn>
+            </div>
+          </v-toolbar>
         </v-col>
       </v-row>
     </v-container>
+
+    <FooterSection/>
   </v-app>
 </template>
 
 <script>
   import NavbarSection from '../components/NavbarSection'
+  import FooterSection from '../components/FooterSection'
 
   export default {
     name: 'HomePage',
 
     components: {
       NavbarSection,
+      FooterSection,
     },
   }
 </script>
