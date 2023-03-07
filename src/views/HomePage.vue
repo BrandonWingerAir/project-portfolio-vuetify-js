@@ -71,6 +71,15 @@
                   </v-btn>
                 </div>
               </v-col>
+
+              <v-col cols="12" class="mt-10">
+                <div class="block-section-1">
+                  <h1 class="blue--text text-darken-4 mt-4 number">
+                    8
+                  </h1>
+                  <h3 class="white--text mt-4">Years Experience</h3>
+                </div>
+              </v-col>
             </v-row>
           </div>
         </v-col>
