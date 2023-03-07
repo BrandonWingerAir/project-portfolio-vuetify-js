@@ -20,7 +20,7 @@
         </v-col>
 
         <v-col cols="12" class="padding">
-          <div class="block-1" id="projects">
+          <div class="block-1">
             <v-row>
               <v-col cols="12">
                 <div class="block-section bg-color-1">
@@ -73,11 +73,47 @@
               </v-col>
 
               <v-col cols="12" class="mt-10">
-                <div class="block-section-1">
+                <div class="block-section-1" id="about">
                   <h1 class="blue--text text-darken-4 mt-4 number">
                     8
                   </h1>
                   <h3 class="white--text mt-4">Years Experience</h3>
+                </div>
+
+                <div class="block-section-2 right-margin">
+                  <v-row>
+                    <v-col cols="12" class="block-section-col">
+                      <div class="block-section-2 button-margin padding bg-color-1">
+                        <h1 class="blue--text">10+</h1>
+                        <p class="grey--text">Clients</p>
+                      </div>
+                    </v-col>
+
+                    <v-col cols="12" class="block-section-col">
+                      <div class="block-section-2 padding bg-color-1">
+                        <h1 class="blue--text">15+</h1>
+                        <p class="grey--text">Completed Projects</p>
+                      </div>
+                    </v-col>
+                  </v-row>
+                </div>
+
+                <div class="block-section-2">
+                  <v-row>
+                    <v-col cols="12" class="block-section-col">
+                      <div class="block-section-2 button-margin padding bg-color-1">
+                        <h1 class="blue--text">30+</h1>
+                        <p class="grey--text">Courses Completed</p>
+                      </div>
+                    </v-col>
+
+                    <v-col cols="12" class="block-section-col">
+                      <div class="block-section-2 padding bg-color-1">
+                        <h1 class="blue--text">50+</h1>
+                        <p class="grey--text">Tutorials Followed</p>
+                      </div>
+                    </v-col>
+                  </v-row>
                 </div>
               </v-col>
             </v-row>
@@ -194,7 +230,7 @@
   padding: 12px 0 !important;
 }
 
-.col-12.section-col {
+.col-12.block-section-col {
   padding: 0 !important;
 }
 
