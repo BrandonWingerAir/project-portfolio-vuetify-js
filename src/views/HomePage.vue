@@ -126,7 +126,7 @@
         </v-col>
 
         <v-col md="3" class="text-end">
-          <v-btn tile color="#0288d1" dark>View All</v-btn>
+          <v-btn tile color="#0277bd" dark>View All</v-btn>
         </v-col>
 
         <v-col md="3" offset-md="3">
@@ -192,6 +192,27 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
+
+        <v-col cols="12" class="padding topInverse">
+          <div class="block-2">
+            <div class="block-2_section-1" id="contact">
+              <v-row>
+                <v-col cols="7">
+                  <h1 class="white--text">
+                    Let's work together on <br> your next project
+                  </h1>
+                  <p class="grey--text">
+                    - Brandon Winger-Air
+                    <br>
+                  </p>
+                </v-col>
+                <v-col cols="5">
+                  <v-btn tile color="#0277bd" dark class="mt-16">Contact Me</v-btn>
+                </v-col>
+              </v-row>
+            </div>
+          </div>
+        </v-col>
       </v-row>
     </v-container>
   </v-app>
@@ -219,7 +240,7 @@
   margin-top: -250px;
 }
 
-.topTolbar {
+.topToolbar {
   margin-top: 100px;
   text-align: center;
 }
@@ -249,9 +270,10 @@
 }
 
 .block-2_section-1 {
+  width: 675px;
   display: inline-block;
   background-color: #1e1e1e;
-  padding: 2rem 1rem;
+  padding: 2rem 2.5rem;
   vertical-align: middle;
   text-align: left;
   margin-top: 250px;
