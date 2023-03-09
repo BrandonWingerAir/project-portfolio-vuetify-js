@@ -3,10 +3,10 @@
     <NavbarSection/>
     <v-container fluid>
       <v-row>
-        <v-col cols="6">
-          <v-img src="computer-tablet-and-smartphone.png" contain max-height="500"></v-img>
+        <v-col sm="6">
+          <v-img src="computer-tablet-and-smartphone.png" class="hero-img" max-height="500" contain></v-img>
         </v-col>
-        <v-col cols="6">
+        <v-col sm="6" class="hero-text">
           <h5 class="light-blue--text text-darken-3 intro-text">Hello, I'm Brandon.</h5>
           <h1 class="white--text">Developer | Designer</h1>
           <p class="grey--text">
@@ -14,7 +14,7 @@
             <br>
             ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
             <br>
-            ~ Vue.js + PHP, Linux, MySQL (Laravel, Vuetify, Tailwind etc.)
+            ~ JS + PHP, Linux, MySQL (Vue, Laravel, Tailwind etc.)
           </p>
           <v-btn tile color="a7121d" dark>cv/résumé</v-btn>
         </v-col>
@@ -248,7 +248,7 @@
 
 <style scoped>
 .intro-text {
-  margin-top: 180px;
+  margin-top: 175px;
   font-size: 19px;
 }
 
@@ -370,6 +370,10 @@ h1.number {
 }
 
 @media only screen and (max-width: 960px) {
+  .intro-text {
+    margin-top: 0;
+  }
+
   .block-1 {
     height: 1250px;
   }
@@ -384,6 +388,20 @@ h1.number {
 
   .project-img {
     height: 270px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-img {
+    margin-top: -68px;
+  }
+
+  .hero-text {
+    margin-bottom: 35px;
+  }
+
+  .intro-text {
+    margin-top: -60px;
   }
 }
 </style>
