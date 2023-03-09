@@ -10,7 +10,7 @@
           <h5 class="light-blue--text text-darken-3 intro-text">Hello, I'm Brandon.</h5>
           <h1 class="white--text">Developer | Designer</h1>
           <p class="grey--text">
-            ~ Enterprise Web & Mobile App Degree (w/ Distinction)
+            ~ Enterprise Web & Mobile App Degree
             <br>
             ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
             <br>
@@ -28,10 +28,10 @@
                     mdi-palette-swatch
                   </v-icon>
                   <h3 class="white--text ml-3 mt-4">UI/UX</h3>
-                  <p class="grey--text  text--lighten-1 ml-3 mt-6">
-                    ● Responsive websites & cross-device applications/PWA's
+                  <p class="grey--text text--lighten-1 ml-3 mt-6">
+                    ● Responsive websites, cross-device applications & PWA's
                     <br>
-                    ● JavaScript animation, advanced calculator and games
+                    ● JavaScript animation, advanced calculator & games
                   </p>
                   <v-btn color="#03a9f4" dark text>
                     more info
@@ -120,28 +120,28 @@
           </div>
         </v-col>
 
-        <v-col md="3" offset-md="3">
+        <v-col md="3" offset-md="3" offset-sm="1">
           <h4 class="white--text">Featured Projects</h4>
           <p class="grey--text">Some of my recent work</p>
         </v-col>
 
-        <v-col md="3" class="text-end">
-          <v-btn tile color="#0277bd" dark>View All</v-btn>
+        <v-col md="3" offset-md="1" class="text-end">
+          <v-btn tile color="#0277bd" class="view-all-btn" dark>View All</v-btn>
         </v-col>
 
-        <v-col md="3" offset-md="3">
-          <v-card class="pa-2 py-12" outlined tile height="350px" color="#1e1e1e">
-            <v-img src="coding.jpg" contain></v-img>
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
+          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
+            <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3">
-          <v-card class="pa-2 py-12" outlined tile height="350px" color="#1e1e1e">
-            <v-img src="coding.jpg" contain></v-img>
+        <v-col md="3" sm="10" offset-sm="1">
+          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
+            <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
-        <v-col md="3" offset-md="3">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
           <v-btn color="white" dark text class="ml-n4">
             Project 1
           </v-btn>
@@ -151,7 +151,7 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3">
+        <v-col md="3" sm="10" offset-sm="1">
           <v-btn color="white" dark text class="ml-n4">
             Project 2
           </v-btn>
@@ -161,19 +161,19 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3" offset-md="3">
-          <v-card class="pa-2 py-12" outlined tile height="350px" color="#1e1e1e">
-            <v-img src="coding.jpg" contain></v-img>
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
+          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
+            <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3">
-          <v-card class="pa-2 py-12" outlined tile height="350px" color="#1e1e1e">
-            <v-img src="coding.jpg" contain></v-img>
+        <v-col md="3" sm="10" offset-sm="1">
+          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
+            <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
-        <v-col md="3" offset-md="3">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
           <v-btn color="white" dark text class="ml-n4">
             Project 3
           </v-btn>
@@ -183,7 +183,7 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3">
+        <v-col md="3" sm="10" offset-sm="1">
           <v-btn color="white" dark text class="ml-n4">
             Project 4
           </v-btn>
@@ -199,7 +199,8 @@
               <v-row>
                 <v-col cols="7">
                   <h1 class="white--text">
-                    Let's work together on <br> your next project
+                    Let's work,
+                    <br> connect:
                   </h1>
                   <p class="grey--text">
                     brandon.air.web@gmail.com
@@ -262,7 +263,7 @@
 
 .block-1 {
   width: 100%;
-  height: 610px;
+  height: 655px;
 
   background: linear-gradient(
     to right,
@@ -300,6 +301,7 @@
   vertical-align: middle;
   text-align: left;
   margin-right: 8px;
+  width: 440px;
 }
 
 .bg-color-1 {
@@ -347,5 +349,29 @@
 h1.number {
   font-size: 50px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1408px) {
+  .block-1 {
+    height: 940px;
+  }
+
+  .block-section {
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .block-1 {
+    height: 1250px;
+  }
+
+  .block-section {
+    margin-bottom: 10px;
+  }
+
+  .view-all-btn {
+    right: 8.3333333333%;
+  }
 }
 </style>
