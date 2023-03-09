@@ -351,6 +351,10 @@ h1.number {
   font-weight: bold;
 }
 
+.project-img {
+  height: 250px;
+}
+
 @media only screen and (max-width: 1408px) {
   .block-1 {
     height: 940px;
@@ -358,6 +362,10 @@ h1.number {
 
   .block-section {
     margin-bottom: 8px;
+  }
+
+  .project-img {
+    height: 150px;
   }
 }
 
@@ -372,6 +380,10 @@ h1.number {
 
   .view-all-btn {
     right: 8.3333333333%;
+  }
+
+  .project-img {
+    height: 270px;
   }
 }
 </style>
