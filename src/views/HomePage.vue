@@ -120,28 +120,28 @@
           </div>
         </v-col>
 
-        <v-col md="3" offset-md="3" offset-sm="1">
+        <v-col md="3" offset-md="3" offset-sm="1" order-md="1" order-sm="1">
           <h4 class="white--text">Featured Projects</h4>
           <p class="grey--text">Some of my recent work</p>
         </v-col>
 
-        <v-col md="3" offset-md="1" class="text-end">
+        <v-col md="3" offset-md="1" class="text-end" order-md="2" order-sm="2">
           <v-btn tile color="#0277bd" class="view-all-btn" dark>View All</v-btn>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="3" order-sm="3">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3" sm="10" offset-sm="1">
+        <v-col md="3" sm="10" offset-sm="1" order-md="4" order-sm="5">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="5" order-sm="4">
           <v-btn color="white" dark text class="ml-n4">
             Project 1
           </v-btn>
@@ -151,7 +151,7 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3" sm="10" offset-sm="1">
+        <v-col md="3" sm="10" offset-sm="1" order-md="6" order-sm="6">
           <v-btn color="white" dark text class="ml-n4">
             Project 2
           </v-btn>
@@ -161,19 +161,19 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="7" order-sm="7">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3" sm="10" offset-sm="1">
+        <v-col md="3" sm="10" offset-sm="1" order-md="8" order-sm="9">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="9" order-sm="8">
           <v-btn color="white" dark text class="ml-n4">
             Project 3
           </v-btn>
@@ -183,7 +183,7 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3" sm="10" offset-sm="1">
+        <v-col md="3" sm="10" offset-sm="1" order-md="10" order-sm="10">
           <v-btn color="white" dark text class="ml-n4">
             Project 4
           </v-btn>
@@ -193,7 +193,7 @@
           </v-btn>
         </v-col>
 
-        <v-col cols="12" class="padding topInverse">
+        <v-col cols="12" class="padding topInverse" order-md="11" order-sm="11">
           <div class="block-2">
             <div class="block-2_section-1" id="contact">
               <v-row>
@@ -263,7 +263,7 @@
 
 .block-1 {
   width: 100%;
-  height: 655px;
+  height: 775px;
 
   background: linear-gradient(
     to right,
