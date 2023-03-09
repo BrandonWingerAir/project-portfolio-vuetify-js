@@ -6,7 +6,7 @@
         <v-col sm="6">
           <v-img src="computer-tablet-and-smartphone.png" class="hero-img" max-height="500" contain></v-img>
         </v-col>
-        <v-col sm="6" class="hero-text">
+        <v-col sm="6" class="hero-block">
           <h5 class="light-blue--text text-darken-3 intro-text">Hello, I'm Brandon.</h5>
           <h1 class="white--text">Developer | Designer</h1>
           <p class="grey--text">
@@ -31,7 +31,7 @@
                   <p class="grey--text text--lighten-1 ml-3 mt-6">
                     ● Responsive websites, cross-device applications & PWA's
                     <br>
-                    ● JavaScript animation, advanced calculator & games
+                    ● JavaScript animation, advanced calculator and games
                   </p>
                   <v-btn color="#03a9f4" dark text>
                     more info
@@ -47,7 +47,7 @@
                   <p class="grey--text text--lighten-2 ml-3 mt-6">
                     ● WooCommerce (WordPress), PayPal & Stripe integration
                     <br>
-                    ● Custom designs or theme additions and improvement
+                    ● Custom designs or theme additions and QA/improvement
                   </p>
                   <v-btn dark text>
                     more info
@@ -57,13 +57,13 @@
 
                 <div class="block-section bg-color-1" id="about-scroll">
                   <v-icon color="#039be5" x-large class="ml-3">
-                    mdi-palette-swatch
+                    mdi-material-design
                   </v-icon>
-                  <h3 class="white--text ml-3 mt-4">Media Design</h3>
-                  <p class="grey--text  text--lighten-1 ml-3 mt-6">
+                  <h3 class="white--text ml-3 mt-4">Digital Production</h3>
+                  <p class="grey--text text--lighten-1 ml-3 mt-6">
                     ● Documents & graphics (Logos, photograph editing etc.)
                     <br>
-                    ● Adobe software and multimedia production
+                    ● Design/AV software, engineering and multimedia branding
                   </p>
                   <v-btn color="#03a9f4" dark text>
                     more info
@@ -120,28 +120,28 @@
           </div>
         </v-col>
 
-        <v-col md="3" offset-md="3" offset-sm="1" order-md="1" order-sm="1">
+        <v-col md="3" offset-md="3" offset-sm="1" order-md="1" order-sm="1" order="1">
           <h4 class="white--text">Featured Projects</h4>
           <p class="grey--text">Some of my recent work</p>
         </v-col>
 
-        <v-col md="3" offset-md="1" class="text-end" order-md="2" order-sm="2">
-          <v-btn tile color="#0277bd" class="view-all-btn" dark>View All</v-btn>
+        <v-col md="3" offset-md="1" class="text-end" order-md="2" order-sm="2" order="2">
+          <v-btn tile color="#0277bd" class="view-all-btn" dark>Coming Soon</v-btn>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="3" order-sm="3">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="3" order-sm="3" order="3">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3" sm="10" offset-sm="1" order-md="4" order-sm="5">
+        <v-col md="3" sm="10" offset-sm="1" order-md="4" order-sm="5" order="5">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="5" order-sm="4">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="5" order-sm="4" order="4">
           <v-btn color="white" dark text class="ml-n4">
             Project 1
           </v-btn>
@@ -151,7 +151,7 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3" sm="10" offset-sm="1" order-md="6" order-sm="6">
+        <v-col md="3" sm="10" offset-sm="1" order-md="6" order-sm="6" order="6">
           <v-btn color="white" dark text class="ml-n4">
             Project 2
           </v-btn>
@@ -161,19 +161,19 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="7" order-sm="7">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="7" order-sm="7" order="7">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3" sm="10" offset-sm="1" order-md="8" order-sm="9">
+        <v-col md="3" sm="10" offset-sm="1" order-md="8" order-sm="9" order="9">
           <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
             <v-img src="coding.jpg" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
-        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="9" order-sm="8">
+        <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="9" order-sm="8" order="8">
           <v-btn color="white" dark text class="ml-n4">
             Project 3
           </v-btn>
@@ -183,7 +183,7 @@
           </v-btn>
         </v-col>
 
-        <v-col md="3" sm="10" offset-sm="1" order-md="10" order-sm="10">
+        <v-col md="3" sm="10" offset-sm="1" order-md="10" order-sm="10" order="10">
           <v-btn color="white" dark text class="ml-n4">
             Project 4
           </v-btn>
@@ -193,12 +193,12 @@
           </v-btn>
         </v-col>
 
-        <v-col cols="12" class="padding topInverse" order-md="11" order-sm="11">
+        <v-col cols="12" class="padding topInverse" order-md="11" order-sm="11" order="11">
           <div class="block-2">
             <div class="block-2_section-1" id="contact">
               <v-row>
                 <v-col cols="7">
-                  <h1 class="white--text">
+                  <h1 class="white--text contact-text">
                     Let's work,
                     <br> connect:
                   </h1>
@@ -247,6 +247,10 @@
 </script>
 
 <style scoped>
+body {
+  overflow-x: hidden;
+}
+
 .intro-text {
   margin-top: 175px;
   font-size: 19px;
@@ -357,7 +361,7 @@ h1.number {
 
 @media only screen and (max-width: 1408px) {
   .block-1 {
-    height: 940px;
+    height: 990px;
   }
 
   .block-section {
@@ -370,12 +374,16 @@ h1.number {
 }
 
 @media only screen and (max-width: 960px) {
+  .hero-block {
+    margin-bottom: 18px;
+  }
+
   .intro-text {
     margin-top: 0;
   }
 
   .block-1 {
-    height: 1250px;
+    height: 1320px;
   }
 
   .block-section {
@@ -383,11 +391,19 @@ h1.number {
   }
 
   .view-all-btn {
-    right: 8.3333333333%;
+    right: 19%;
   }
 
   .project-img {
     height: 270px;
+  }
+
+  .block-2_section-1 {
+    width: 535px;
+  }
+
+  .contact-text {
+    font-size: 28px;
   }
 }
 
@@ -396,12 +412,24 @@ h1.number {
     margin-top: -68px;
   }
 
-  .hero-text {
+  .hero-block {
     margin-bottom: 35px;
   }
 
   .intro-text {
     margin-top: -60px;
+  }
+
+  .block-section {
+    width: 315px;
+  }
+
+  .view-all-btn {
+    right: 8.3333333333%;
+  }
+
+  .block-2_section-1 {
+    width: 435px;
   }
 }
 </style>

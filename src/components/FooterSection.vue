@@ -35,7 +35,7 @@
     export default {
         data: () => ({
             icons: [
-                "mdi-linkedin","mdi-youtube", "mdi-instagram", "mdi-github"
+                "mdi-linkedin","mdi-youtube", "mdi-github"
             ]
         })
     }
