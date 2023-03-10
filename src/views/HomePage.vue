@@ -197,7 +197,7 @@
           <div class="block-2">
             <div class="block-2_section-1" id="contact">
               <v-row>
-                <v-col cols="7">
+                <v-col cols="12" sm="7">
                   <h1 class="white--text contact-text">
                     Let's work,
                     <br> connect:
@@ -207,8 +207,8 @@
                     <br>
                   </p>
                 </v-col>
-                <v-col cols="5">
-                  <v-btn tile color="#0277bd" dark class="mt-16">
+                <v-col cols="12" sm="5">
+                  <v-btn tile color="#0277bd" dark class="mt-sm-16 mt-n5">
                     <a href="mailto:brandon.air.web@gmail.com" class="white--text text-decoration-none">Contact Me</a>
                   </v-btn>
                 </v-col>
@@ -241,16 +241,12 @@
 
     components: {
       NavbarSection,
-      FooterSection,
+      FooterSection
     },
   }
 </script>
 
 <style scoped>
-body {
-  overflow-x: hidden;
-}
-
 .intro-text {
   margin-top: 175px;
   font-size: 19px;
@@ -428,8 +424,12 @@ h1.number {
     right: 8.3333333333%;
   }
 
+  .block-2 {
+    height: 500px;
+  }
+
   .block-2_section-1 {
-    width: 435px;
+    width: 320px;
   }
 }
 </style>
