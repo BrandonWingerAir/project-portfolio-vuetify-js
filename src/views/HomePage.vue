@@ -72,7 +72,7 @@
                 </div>
               </v-col>
 
-              <v-col cols="12" class="mt-10">
+              <v-col cols="12" class="mt-md-10">
                 <div class="block-section-1">
                   <h1 class="blue--text text-darken-4 mt-4 number">
                     8
@@ -90,7 +90,7 @@
                     </v-col>
 
                     <v-col cols="12" class="block-section-col">
-                      <div class="block-section-2 padding bg-color-1">
+                      <div class="block-section-2 sm-margin padding bg-color-1">
                         <h1 class="light-blue--text">15+</h1>
                         <p class="grey--text">Completed Projects</p>
                       </div>
@@ -216,14 +216,14 @@
             </div>
           </div>
 
-          <v-toolbar class="topToolbar" color="#111111" dark flat>
+          <!-- <v-toolbar class="topToolbar" color="#111111" dark flat>
             <div style="position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; text-align: center;">
               <v-btn text>Home</v-btn>
               <v-btn text>Projects</v-btn>
               <v-btn text>About</v-btn>
               <v-btn text>Contact</v-btn>
             </div>
-          </v-toolbar>
+          </v-toolbar> -->
         </v-col>
       </v-row>
     </v-container>
@@ -279,7 +279,7 @@
 
 .block-2 {
   width: 100%;
-  height: 400px;
+  height: 545px;
   background: #181818;
   text-align: center;
   padding: 2rem 2rem;
@@ -379,7 +379,7 @@ h1.number {
   }
 
   .block-1 {
-    height: 1320px;
+    height: 1285px;
   }
 
   .block-section {
@@ -403,6 +403,21 @@ h1.number {
   }
 }
 
+@media only screen and (max-width: 806px) {
+  .block-1 {
+    height: 1720px;
+  }
+
+  .block-section-2 {
+    display: block;
+    margin: 5px auto;
+  }
+
+  .sm-margin {
+    margin-bottom: 12px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .hero-img {
     margin-top: -68px;
@@ -410,6 +425,7 @@ h1.number {
 
   .hero-block {
     margin-bottom: 35px;
+    padding: 0 50px;
   }
 
   .intro-text {
@@ -418,18 +434,44 @@ h1.number {
 
   .block-section {
     width: 315px;
+    margin: 5px auto;
   }
 
   .view-all-btn {
-    right: 8.3333333333%;
+    right: 0;
   }
 
   .block-2 {
-    height: 500px;
+    height: 575px;
   }
 
   .block-2_section-1 {
     width: 320px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .hero-block {
+    padding: 0 40px;
+  }
+
+  .block-1 {
+    height: 1870px;
+  }
+
+  .block-section {
+    width: 255px;
+  }
+
+  .block-2_section-1 {
+    width: 260px;
+    padding: 20px 16px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .hero-block {
+    padding: 0 25px;
   }
 }
 </style>

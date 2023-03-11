@@ -43,6 +43,12 @@
     }
 
     .v-toolbar {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .v-toolbar {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
