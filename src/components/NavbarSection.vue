@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar app color="#111111" dark flat class="px-8 d-sm-inline-block d-flex" max-width="100vw">
+    <v-app-bar app color="#111111" dark flat class="px-8" max-width="100vw">
         <v-btn icon>
             <v-icon color="#039be5">fa-solid fa-globe</v-icon>
         </v-btn>
@@ -25,7 +25,8 @@
 <style scoped>
 @media only screen and (max-width: 600px) {
     .v-toolbar {
-        justify-content: center !important;
+        padding-left: 20px !important;
+        padding-right: 10px !important;
     }
 
 }
@@ -39,6 +40,11 @@
 @media only screen and (max-width: 380px) {
     .v-btn {
         padding: 8px !important;
+    }
+
+    .v-toolbar {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
 </style>

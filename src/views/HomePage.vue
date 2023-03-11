@@ -14,7 +14,7 @@
             <br>
             ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
             <br>
-            ~ JS + PHP, Linux, MySQL (Vue, Laravel, Tailwind etc.)
+            ~ PHP, Linux, MySQL (Vue.js, Laravel, Tailwind etc.)
           </p>
           <v-btn tile color="a7121d" dark>cv/résumé</v-btn>
         </v-col>
