@@ -1,6 +1,6 @@
 <template>
     <v-app-bar app color="#111111" dark flat class="px-8" max-width="100vw">
-        <v-btn icon>
+        <v-btn icon @click="scroll('home')">
             <v-icon color="#039be5">fa-solid fa-globe</v-icon>
         </v-btn>
         <v-spacer></v-spacer>

@@ -4,7 +4,7 @@
             <v-row>
                 <v-col cols="12" sm="4">
                     <v-card-text class="white--text pt-2">
-                        <v-btn icon>
+                        <v-btn icon @click="scroll('home')">
                             <v-icon color="#039be5">fa-solid fa-globe</v-icon>
                         </v-btn>
                     </v-card-text>
@@ -12,7 +12,14 @@
 
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <v-btn v-for="icon in icons" :key="icon" class="mx-1 white--text" icon>
+                        <v-btn 
+                            v-for="icon in icons" 
+                            :key="icon" 
+                            class="mx-1 white--text" 
+                            icon 
+                            href="https://www.upwork.com/freelancers/~01889fb0e8f4f710b7" 
+                            target="_blank"
+                        >
                             <v-icon size="24px">{{icon}}</v-icon>
                         </v-btn>
                     </v-card-text>
@@ -35,12 +42,14 @@
     export default {
         data: () => ({
             icons: [
-                "mdi-linkedin","mdi-youtube", "mdi-github"
+                "mdi-briefcase-account"
             ]
-        })
+        }),
+        methods: {
+            scroll(refName) {
+                const element = document.getElementById(refName);
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        }
     }
 </script>
-
-<style scoped>
-
-</style>

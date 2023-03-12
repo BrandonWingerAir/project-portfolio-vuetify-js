@@ -16,7 +16,7 @@
             <br>
             ~ PHP, Linux, MySQL (Vue.js, Laravel, Tailwind etc.)
           </p>
-          <v-btn tile color="a7121d" dark>cv/résumé</v-btn>
+          <v-btn tile color="a7121d" class="text-capitalize font-weight-bold" dark href="https://www.linkedin.com/in/bwingerair/" target="_blank">LinkedIn</v-btn>
         </v-col>
 
         <v-col cols="12" class="padding">
@@ -33,7 +33,7 @@
                     <br>
                     ● JavaScript animation, advanced calculator and games
                   </p>
-                  <v-btn color="#03a9f4" dark text>
+                  <v-btn color="#03a9f4" dark text href="https://www.freelancer.com/u/BWinger" target="_blank">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
@@ -49,7 +49,7 @@
                     <br>
                     ● Custom designs or theme additions and QA/improvement
                   </p>
-                  <v-btn dark text>
+                  <v-btn dark text href="https://www.freelancer.com/u/BWinger" target="_blank">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
@@ -65,7 +65,7 @@
                     <br>
                     ● Design/AV software, engineering and multimedia branding
                   </p>
-                  <v-btn color="#03a9f4" dark text>
+                  <v-btn color="#03a9f4" dark text href="https://www.freelancer.com/u/BWinger" target="_blank">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
@@ -125,70 +125,70 @@
           <p class="grey--text">Some of my recent work</p>
         </v-col>
 
-        <v-col md="3" offset-md="1" class="text-end" order-md="2" order-sm="2" order="2">
-          <v-btn tile color="#0277bd" class="view-all-btn" dark>Coming Soon</v-btn>
+        <v-col md="3" offset-md="1" class="text-end mr-offset" order-md="2" order-sm="2" order="2">
+          <v-btn tile color="#0277bd" class="view-all-btn" dark href="https://github.com/BrandonWingerAir" target="_blank">Github</v-btn>
         </v-col>
 
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="3" order-sm="3" order="3">
-          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
-            <v-img src="coding.jpg" class="project-img" contain></v-img>
+          <v-card class="pa-6 py-12" outlined tile color="#1e1e1e">
+            <v-img src="recipes-api-app-js.png" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3" sm="10" offset-sm="1" order-md="4" order-sm="5" order="5">
-          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
-            <v-img src="coding.jpg" class="project-img" contain></v-img>
+        <v-col md="3" sm="10" offset-sm="1" order-md="4" order-sm="5" order="5" class="mr-offset">
+          <v-card class="pa-6 py-12" outlined tile color="#1e1e1e">
+            <v-img src="list-app-vue-js.png" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="5" order-sm="4" order="4">
-          <v-btn color="white" dark text class="ml-n4">
-            Project 1
+          <v-btn color="white" dark text class="ml-n4" href="https://brandonwingerair.github.io/recipe-categories-api-js/" target="_blank">
+            Recipes API Website (JS)
           </v-btn>
-          <v-btn color="#03a9f4" dark text class="ml-n4">
-            Details
+          <v-btn color="#03a9f4" dark text class="ml-n4" href="https://github.com/BrandonWingerAir/recipe-categories-api-js" target="_blank">
+            Code
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
 
-        <v-col md="3" sm="10" offset-sm="1" order-md="6" order-sm="6" order="6">
-          <v-btn color="white" dark text class="ml-n4">
-            Project 2
+        <v-col md="3" sm="10" offset-sm="1" order-md="6" order-sm="6" order="6" class="mr-offset">
+          <v-btn color="white" dark text class="ml-n4" href="https://brandonwingerair.github.io/todo-app-vue-js/ " target="_blank">
+            List Web App (Vue 3)
           </v-btn>
-          <v-btn color="#03a9f4" dark text class="ml-n4">
-            Details
+          <v-btn color="#03a9f4" dark text class="ml-n4" href="https://github.com/BrandonWingerAir/todo-app-vue-js " target="_blank">
+            Code
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
 
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="7" order-sm="7" order="7">
-          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
-            <v-img src="coding.jpg" class="project-img" contain></v-img>
+          <v-card class="pa-6 py-12" outlined tile color="#1e1e1e">
+            <v-img src="kanban-web-app-js.png" class="project-img" contain></v-img>
           </v-card>
         </v-col>
         
-        <v-col md="3" sm="10" offset-sm="1" order-md="8" order-sm="9" order="9">
-          <v-card class="pa-2 py-12" outlined tile color="#1e1e1e">
-            <v-img src="coding.jpg" class="project-img" contain></v-img>
+        <v-col md="3" sm="10" offset-sm="1" order-md="8" order-sm="9" order="9" class="mr-offset">
+          <v-card class="pa-6 py-12" outlined tile color="#1e1e1e">
+            <v-img src="platformer-game-phaser-ts.png" class="project-img" contain></v-img>
           </v-card>
         </v-col>
 
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="9" order-sm="8" order="8">
-          <v-btn color="white" dark text class="ml-n4">
-            Project 3
+          <v-btn color="white" dark text class="ml-n4" href="https://brandonwingerair.github.io/kanban-board-app-js/" target="_blank">
+            Kanban Web App (JS)
           </v-btn>
-          <v-btn color="#03a9f4" dark text class="ml-n4">
-            Details
+          <v-btn color="#03a9f4" dark text class="ml-n4" href="https://github.com/BrandonWingerAir/kanban-board-app-js" target="_blank">
+            Code
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
 
-        <v-col md="3" sm="10" offset-sm="1" order-md="10" order-sm="10" order="10">
-          <v-btn color="white" dark text class="ml-n4">
-            Project 4
+        <v-col md="3" sm="10" offset-sm="1" order-md="10" order-sm="10" order="10" class="mr-offset">
+          <v-btn color="white" dark text class="ml-n4" href="https://brandonwingerair.github.io/platformer-game-phaser-ts/" target="_blank">
+            Platform Game (Phaser/TypeScript)
           </v-btn>
-          <v-btn color="#03a9f4" dark text class="ml-n4">
-            Details
+          <v-btn color="#03a9f4" dark text class="ml-n4" href="https://github.com/BrandonWingerAir/platformer-game-phaser-ts" target="_blank">
+            Code
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
@@ -263,7 +263,7 @@
 
 .block-1 {
   width: 100%;
-  height: 775px;
+  height: 653px;
 
   background: linear-gradient(
     to right,
@@ -355,6 +355,11 @@ h1.number {
   height: 250px;
 }
 
+.mr-offset {
+  position: relative;
+  right: 5%;
+}
+
 @media only screen and (max-width: 1408px) {
   .block-1 {
     height: 990px;
@@ -400,6 +405,10 @@ h1.number {
 
   .contact-text {
     font-size: 28px;
+  }
+
+  .mr-offset {
+    right: 0;
   }
 }
 
