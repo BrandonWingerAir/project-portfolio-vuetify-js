@@ -17,7 +17,7 @@
                             :key="icon" 
                             class="mx-1 white--text" 
                             icon 
-                            href="https://www.upwork.com/freelancers/~01889fb0e8f4f710b7" 
+                            href="https://www.linkedin.com/in/bwingerair/" 
                             target="_blank"
                         >
                             <v-icon size="24px">{{icon}}</v-icon>
@@ -42,7 +42,7 @@
     export default {
         data: () => ({
             icons: [
-                "mdi-briefcase-account"
+                "mdi-linkedin"
             ]
         }),
         methods: {
