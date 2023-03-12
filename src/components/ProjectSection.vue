@@ -33,7 +33,7 @@
 
         <v-col md="3" sm="10" offset-sm="1" order-md="6" order-sm="6" order="6" class="mr-offset">
             <v-btn color="white" dark text class="ml-n4" href="https://brandonwingerair.github.io/todo-app-vue-js/ " target="_blank">
-                List Web App (Vue 3)
+                List Web App (Vue.js 3)
             </v-btn>
             <v-btn color="#03a9f4" dark text class="ml-n4" href="https://github.com/BrandonWingerAir/todo-app-vue-js " target="_blank">
                 Code

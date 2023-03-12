@@ -170,6 +170,10 @@ h1.number {
   font-weight: bold;
 }
 
+.block-section-col {
+  padding: 0 !important;
+}
+
 .block-margin {
   margin-bottom: 8px;
 }

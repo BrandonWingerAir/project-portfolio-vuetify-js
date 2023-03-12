@@ -27,10 +27,10 @@
 
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
-                        <v-btn class="mx-1 white--text" icon>
+                        <v-btn class="white--text" icon>
                             <v-icon color="#039be5">mdi-brush-variant</v-icon>
                         </v-btn>
-                        Designed by Brandon Winger-Air
+                        Brandon Winger-Air | 2023
                     </v-card-text>
                 </v-col>
             </v-row>
