@@ -18,7 +18,7 @@
         
         <!-- Project 3 Image-->
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="7" order-sm="7" order="7">
-            <v-card href="https://brandonwingerair.github.io/recipe-categories-api-js/" target="_blank" class="px-6 py-12" outlined tile color="#1e1e1e">
+            <v-card href="https://brandonwingerair.github.io/matrix-multi-calculator-js/" target="_blank" class="px-6 py-12" outlined tile color="#1e1e1e">
                 <v-img src="combined-rating-calculator.png" class="project-img" contain></v-img>
             </v-card>
         </v-col>
@@ -36,10 +36,10 @@
 
         <!-- Project 3 Info-->
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="9" order-sm="8" order="8">
-            <v-btn color="white" dark text class="px-3 mr-1" href="https://brandonwingerair.github.io/recipe-categories-api-js/ " target="_blank">
+            <v-btn color="white" dark text class="px-3 mr-1" href="https://brandonwingerair.github.io/matrix-multi-calculator-js/ " target="_blank">
                 Multi-step Calculator (HTML/CSS, JS & PHP)
             </v-btn>
-            <v-btn color="#03a9f4" dark text class="px-3" href="https://github.com/BrandonWingerAir/recipe-categories-api-js" target="_blank">
+            <v-btn color="#03a9f4" dark text class="px-3" href="https://github.com/BrandonWingerAir/matrix-multi-calculator-js" target="_blank">
                 Code
                 <v-icon right>mdi-arrow-right</v-icon>
             </v-btn>
