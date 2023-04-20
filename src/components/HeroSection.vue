@@ -7,20 +7,27 @@
             <h5 class="light-blue--text text-darken-3 intro-text">Hello, I'm Brandon.</h5>
             <h1 class="white--text">Developer | Designer</h1>
             <p class="grey--text">
-            ~ Enterprise Web & Mobile App Degree (with Distinction)
-            <br>
-            ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
-            <br>
-            ~ PHP, Linux, MySQL (Vue.js, Laravel, Tailwind etc.)
+                ~ Enterprise Web & Mobile App Degree (with Distinction)
+                <br>
+                ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
+                <br>
+                ~ PHP, Linux, MySQL (Vue.js, Laravel, Tailwind etc.)
             </p>
-            <v-btn tile color="a7121d" class="text-capitalize" dark href="https://www.upwork.com/freelancers/~01889fb0e8f4f710b7" target="_blank">Upwork</v-btn>
+            <v-btn tile color="a7121d" class="text-capitalize" dark @click="scroll('projects-scroll')">
+                View Projects
+            </v-btn>
         </v-col>
     </v-row>
 </template>
 
 <script>
     export default {
-        
+        methods: {
+            scroll(refName) {
+                const element = document.getElementById(refName);
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        }
     }
 </script>
 

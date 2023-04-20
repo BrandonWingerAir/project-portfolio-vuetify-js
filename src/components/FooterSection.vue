@@ -17,10 +17,10 @@
                             :key="icon" 
                             class="mx-1 white--text" 
                             icon 
-                            href="https://www.linkedin.com/in/bwingerair/" 
+                            :href="icon.url"
                             target="_blank"
                         >
-                            <v-icon size="24px">{{icon}}</v-icon>
+                            <v-icon size="24px">{{icon.image}}</v-icon>
                         </v-btn>
                     </v-card-text>
                 </v-col>
@@ -42,7 +42,14 @@
     export default {
         data: () => ({
             icons: [
-                "mdi-linkedin"
+                {
+                    image: "mdi-linkedin",
+                    url: "https://www.linkedin.com/in/bwingerair/"
+                },
+                {
+                    image: "mdi-github",
+                    url: "https://github.com/BrandonWingerAir"
+                }
             ]
         }),
         methods: {
