@@ -47,6 +47,10 @@
                     url: "https://www.linkedin.com/in/bwingerair/"
                 },
                 {
+                    image: "mdi-briefcase",
+                    url: "https://www.freelancer.com/u/BWinger"
+                },
+                {
                     image: "mdi-github",
                     url: "https://github.com/BrandonWingerAir"
                 }

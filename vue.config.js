@@ -4,7 +4,7 @@ module.exports = defineConfig({
   pages: {
     index: {
         entry: 'src/main.js',
-        title: 'Portfolio | Brandon Winger-Air'
+        title: 'Web Portfolio | Brandon Winger-Air'
     }
   },
   transpileDependencies: [

@@ -14,7 +14,7 @@
                     <br>
                     ● JavaScript animation, advanced calculator and games
                   </p>
-                  <v-btn color="#03a9f4" dark text href="https://www.freelancer.com/u/BWinger" target="_blank">
+                  <v-btn color="#03a9f4" dark text @click="scroll('projects-scroll')">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
@@ -30,7 +30,7 @@
                     <br>
                     ● Custom designs or theme additions and QA/improvement
                   </p>
-                  <v-btn dark text href="https://www.freelancer.com/u/BWinger" target="_blank">
+                  <v-btn dark text @click="scroll('projects-scroll')">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
@@ -46,7 +46,7 @@
                     <br>
                     ● Design/AV software, engineering and multimedia branding
                   </p>
-                  <v-btn color="#03a9f4" dark text href="https://www.freelancer.com/u/BWinger" target="_blank">
+                  <v-btn color="#03a9f4" dark text @click="scroll('projects-scroll')">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
@@ -105,7 +105,12 @@
 
 <script>
     export default {
-        
+      methods: {
+          scroll(refName) {
+              const element = document.getElementById(refName);
+              element.scrollIntoView({ behavior: "smooth" });
+          }
+      }
     }
 </script>
 

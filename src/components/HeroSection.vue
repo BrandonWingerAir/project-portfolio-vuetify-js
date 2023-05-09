@@ -7,11 +7,11 @@
             <h5 class="light-blue--text text-darken-3 intro-text">Hello, I'm Brandon.</h5>
             <h1 class="white--text">Developer | Designer</h1>
             <p class="grey--text">
-                ~ Enterprise Web & Mobile App Degree (Distinction) + Self-study
+                ~ Enterprise Web & Mobile App Degree (Distinction) + self-study
                 <br>
                 ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
                 <br>
-                ~ PHP, Linux, MySQL/MongoDB (Vue.js, Laravel, CSS Frameworks etc.)
+                ~ PHP, Linux, MySQL/MongoDB (Vue.js, Laravel, CSS frameworks etc.)
             </p>
             <v-btn tile color="a7121d" class="text-capitalize" dark @click="scroll('projects-scroll')">
                 View Projects

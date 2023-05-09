@@ -6,6 +6,7 @@
       <HeroSection/>
       <AboutSection/>
       <ProjectSection/>
+      <TestimonialSection/>
       <ContactSection/>
     </v-container>
 
@@ -18,6 +19,7 @@
   import HeroSection from '../components/HeroSection'
   import AboutSection from '../components/AboutSection'
   import ProjectSection from '../components/ProjectSection'
+  import TestimonialSection from '../components/TestimonialSection'
   import ContactSection from '../components/ContactSection'
   import FooterSection from '../components/FooterSection'
 
@@ -29,6 +31,7 @@
       HeroSection,
       AboutSection,
       ProjectSection,
+      TestimonialSection,
       ContactSection,
       FooterSection
     },
