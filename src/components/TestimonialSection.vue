@@ -1,5 +1,7 @@
 <template>
-      <v-card class="mx-auto my-12 text-center" width="50%">
+  <v-card id="testimonials-carousel" class="mx-auto my-12 text-center pt-4 grey" width="75%">
+        <h2 class="mb-4 grey--text text--darken-4">Testimonials</h2>
+        <hr>
         <v-carousel hide-delimiters>
             <v-carousel-item
               v-for="(item,i) in items"
@@ -10,13 +12,15 @@
                 color="grey"
               >
                 <v-row
-                  class="fill-height"
+                  class="fill-height grey--text text--darken-4"
                   align="center"
                   justify="center"
                 >
-                  <div>
-                    <p>{{ item.review }}</p>
+                  <div id="review-container">
+                    <p class="black--text">"{{ item.review }}"</p>
                     <h4>{{ item.client }}</h4>
+                    <h5 class="mb-4">Project: {{ item.project }}</h5>
+                    <v-btn :href="item.link">View Rating</v-btn>
                   </div>
                 </v-row>
               </v-sheet>
@@ -32,15 +36,47 @@
       return {
         items: [
           {
-            client: "Upwork client (Calculator - JavaScript/WordPress)",
-            review: "Wonderful experience, thank you very much, fast, reliable and professional, I definitely recommend him to everyone, one of the best!"
+            client: "Upwork.com client",
+            review: "Wonderful experience, thank you very much, fast, reliable and professional, I definitely recommend him to everyone, one of the best!",
+            project: "Calculator Plugin (JavaScript/WordPress)",
+            link: "https://www.upwork.com/freelancers/~01889fb0e8f4f710b7"
           },
           {
-            client: "",
-            review: "2"
+            client: "Jeffrey S. @CityPopper - Freelancer.com",
+            review: "No complaints.",
+            project: "Site Feature (AliPay/Stripe & WordPress)",
+            link: "https://www.freelancer.com/u/BWinger"
+          },
+          {
+            client: "Katherine M. @kmyers1 - Freelancer.com",
+            review: "Excellent communication! Will hire again!",
+            project: "Site Feature (UserPro plugin for WordPress)",
+            link: "https://www.freelancer.com/u/BWinger"
+          },
+          {
+            client: "Love L. @Hopedove - Freelancer.com",
+            review: "Very responsive work attitude.",
+            project: "English Writing",
+            link: "https://www.freelancer.com/u/BWinger"
+          },
+          {
+            client: "Benjamin R. @dfservice - Freelancer.com",
+            review: "cooperative Freelancer, nice to work with him.",
+            project: "Site Feature (WooCommerce/Wordpress & Stripe)",
+            link: "https://www.freelancer.com/u/BWinger"
           }
         ],
       }
     },
   }
 </script>
+
+<style scoped>
+#testimonials-carousel {
+  max-width: 800px;
+}
+
+#review-container {
+  padding: 0 75px;
+}
+</style>
