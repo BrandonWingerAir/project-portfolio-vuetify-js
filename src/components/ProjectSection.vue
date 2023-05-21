@@ -29,7 +29,7 @@
                 inDesigns© Page (Branding & Vuetify)
             </v-btn>
             <v-btn color="#03a9f4" dark text class="px-3" href="https://github.com/BrandonWingerAir/interior-decor-vuetify-js" target="_blank">
-                Code
+                View Code
                 <v-icon right>mdi-arrow-right</v-icon>
             </v-btn>
         </v-col>
@@ -40,7 +40,7 @@
                 Multi-step Calculator (HTML/CSS, JS & PHP)
             </v-btn>
             <v-btn color="#03a9f4" dark text class="px-3" href="https://github.com/BrandonWingerAir/matrix-multi-calculator-js" target="_blank">
-                Code
+                View Code
                 <v-icon right>mdi-arrow-right</v-icon>
             </v-btn>
         </v-col>
@@ -65,7 +65,7 @@
                 Kanban Board (HTML/CSS & JavaScript)
             </v-btn>
             <v-btn color="#03a9f4" dark text class="px-3" href="https://github.com/BrandonWingerAir/kanban-board-app-js" target="_blank">
-                Code
+                View Code
                 <v-icon right>mdi-arrow-right</v-icon>
             </v-btn>
         </v-col>
@@ -76,7 +76,7 @@
                 Cost & Time Estimator (Bulma + jQuery)
             </v-btn>
             <v-btn color="#03a9f4" dark text class="px-3" href="hhttps://github.com/BrandonWingerAir/web-project-cost-estimator" target="_blank">
-                Code
+                View Code
                 <v-icon right>mdi-arrow-right</v-icon>
             </v-btn>
         </v-col>
