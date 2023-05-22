@@ -9,7 +9,7 @@
             <p class="grey--text">
                 ~ Enterprise Web & Mobile App Dev Degree (Distinction) + self-study
                 <br>
-                ~ Freelance (InDesign/Photoshop, WordPress, HTML/CSS, JavaScript) 
+                ~ Freelance (HTML/CSS, JavaScript, InDesign/Photoshop, WordPress) 
                 <br>
                 ~ PHP, Linux, MySQL/MongoDB (Vue.js, Laravel, CSS frameworks etc.)
             </p>
