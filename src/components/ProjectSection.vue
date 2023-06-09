@@ -54,7 +54,7 @@
         
         <!-- Project 4 Image-->
         <v-col md="3" sm="10" offset-sm="1" order-md="8" order-sm="9" order="9" class="mr-offset">
-            <v-card href="https://brandonwingerair.github.io/web-project-cost-estimator/" target="_blank" class="px-6 py-12" outlined tile color="#1e1e1e">
+            <v-card href="https://brandonwinger-air.com/web-project-calculator/" target="_blank" class="px-6 py-12" outlined tile color="#1e1e1e">
                 <v-img src="client-cost-estimator.png" class="project-img" contain></v-img>
             </v-card>
         </v-col>
@@ -72,7 +72,7 @@
 
         <!-- Project 4 Info-->
         <v-col md="3" sm="10" offset-sm="1" order-md="10" order-sm="10" order="10" class="mr-offset">
-            <v-btn color="white" dark text class="px-3 mr-1" href="https://brandonwingerair.github.io/web-project-cost-estimator/" target="_blank">
+            <v-btn color="white" dark text class="px-3 mr-1" href="https://brandonwinger-air.com/web-project-calculator/" target="_blank">
                 Cost & Time Estimator (Bulma + jQuery)
             </v-btn>
             <v-btn color="#03a9f4" dark text class="px-3" href="hhttps://github.com/BrandonWingerAir/web-project-cost-estimator" target="_blank">
