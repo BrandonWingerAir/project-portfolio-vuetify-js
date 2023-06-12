@@ -9,12 +9,12 @@
             <p class="grey--text">
                 ~ Enterprise Web & Mobile App Dev Degree (Distinction) + self-study
                 <br>
-                ~ Freelance (HTML/CSS, JavaScript, InDesign/Photoshop, WordPress) 
+                ~ Freelance (HTML/CSS, JavaScript, InDesign/Photoshop, WordPress & more) 
                 <br>
                 ~ PHP, Linux, MySQL/MongoDB (Vue.js, Laravel, CSS frameworks etc.)
             </p>
-            <v-btn tile color="a7121d" class="text-capitalize" dark @click="scroll('projects-scroll')">
-                View Projects
+            <v-btn tile color="a7121d" class="text-capitalize" dark href="https://brandonwinger-air.com/web-project-calculator/" target="_blank">
+                Instant Estimate Calculator
             </v-btn>
         </v-col>
     </v-row>
