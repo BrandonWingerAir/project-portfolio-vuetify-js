@@ -14,6 +14,9 @@
                 ~ PHP, Linux, MySQL/MongoDB (Vue.js, Laravel, CSS frameworks etc.)
             </p>
             <v-btn tile color="a7121d" class="text-capitalize" dark href="https://brandonwinger-air.com/web-project-calculator/" target="_blank">
+                <v-icon color="#039be5" class="mr-3">
+                    mdi-calculator
+                </v-icon>
                 Instant Estimate Calculator
             </v-btn>
         </v-col>
