@@ -17,7 +17,7 @@
                 <v-icon color="#039be5" class="mr-3">
                     mdi-calculator
                 </v-icon>
-                Instant Estimate Calculator
+                Instant Cost & Time Estimate
             </v-btn>
         </v-col>
     </v-row>
