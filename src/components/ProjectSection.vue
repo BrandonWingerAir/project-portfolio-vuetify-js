@@ -6,7 +6,7 @@
         </v-col>
 
         <v-col md="3" offset-md="1" class="text-end mr-offset" order-md="2" order-sm="2" order="2">
-            <v-btn tile color="#0277bd" class="view-all-btn" dark href="https://github.com/BrandonWingerAir" target="_blank">Github</v-btn>
+            <v-btn tile color="#0277bd" class="view-all-btn" dark href="https://www.upwork.com/freelancers/~01889fb0e8f4f710b7" target="_blank">Upwork</v-btn>
         </v-col>
 
         <!-- Project 1 Image-->
