@@ -4,23 +4,158 @@
             <div class="block-2">
                 <div class="block-2_section-1" id="contact">
                     <v-row>
-                    <v-col cols="12" sm="7">
-                        <h1 class="white--text contact-text">
-                        Let's work,
-                        <br> connect:
-                        </h1>
-                        <p class="grey--text">
-                        brandon.air.web@gmail.com
-                        <br>
-                        </p>
-                    </v-col>
-                    <v-col cols="12" sm="5">
-                        <v-btn tile color="#0277bd" dark class="mt-sm-16 mt-n5">
-                        <a href="mailto:brandon.air.web@gmail.com" class="white--text text-decoration-none">Contact Me</a>
-                        </v-btn>
-                    </v-col>
+                        <v-col cols="12" sm="7">
+                            <h1 class="white--text contact-text">
+                            Let's work,
+                            <br> connect:
+                            </h1>
+                            <p class="grey--text">
+                            brandon.air.web@gmail.com
+                            <br>
+                            </p>
+                        </v-col>
+                        <v-col cols="12" sm="5">
+                            <v-btn tile color="#0277bd" dark class="mt-sm-16 mt-n5">
+                            <a href="mailto:brandon.air.web@gmail.com" class="white--text text-decoration-none">Contact Me</a>
+                            </v-btn>
+                        </v-col>
                     </v-row>
                 </div>
+            </div>
+
+            <div class="block-3 py-12 mx-auto">
+                <h4 class="white--text text-center text-h4 pb-1">
+                    Additional Certificates
+                </h4>
+                <hr width="345" class="mx-auto mb-16">
+                <v-row>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1014.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                HTML5
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1023.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                CSS3
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1024.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                JavaScript
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1082.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                jQuery
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2" offset-sm="3" offset-md="0">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1059.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                PHP
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1060.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                SQL
+                            </p>
+                        </a>
+                    </v-col>
+                </v-row>
+                
+                <v-row>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1097.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                React + Redux
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1068.png" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                Java
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1080.png" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                C#
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1081.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                Ruby
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2" offset-sm="3" offset-md="0">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1092.png" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                Angular + NestJS
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="3" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1141.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                Web Development Fundamentals
+                            </p>
+                        </a>
+                    </v-col>
+                </v-row>
+
+                <v-row>
+                    <v-col cols="6" sm="4" md="2" offset-md="3">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1140.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                Game Development with JS
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" sm="4" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1165.png" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                Responsive Web Design
+                            </p>
+                        </a>
+                    </v-col>
+                    <v-col cols="6" offset="3" offset-sm="0" sm="4" md="2">
+                        <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
+                            <v-img src="sololearn/1162.webp" contain/>
+                            <p class="text-center mt-2 text-h6 font-weight-regular">
+                                Coding for Marketers
+                            </p>
+                        </a>
+                    </v-col>
+                </v-row>
             </div>
 
             <!-- Footer Menu: Requires hiding top navbar after scrolling -->
@@ -44,15 +179,14 @@
 
 <style scoped>
 .topInverse {
-  margin-top: -250px;
+    margin-top: -250px;
 }
 
 .block-2 {
     width: 100%;
-    height: 545px;
     background: #181818;
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 3rem;
 }
 
 .block-2_section-1 {
@@ -63,6 +197,10 @@
     vertical-align: middle;
     text-align: left;
     margin-top: 250px;
+}
+
+.block-3 {
+    width: 75%;
 }
 
 /* .bottomNavbar {
@@ -81,12 +219,16 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .block-2 {
-        height: 575px;
-    }
-
     .block-2_section-1 {
         width: 320px;
+    }
+
+    .block-3 h4 {
+        font-size: 23px !important;
+    }
+
+    .block-3 hr {
+        width: 235px;
     }
 }
 
