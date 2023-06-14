@@ -7,13 +7,13 @@
         <v-btn text @click="scroll('home')" class="xs-hide">
             Home
         </v-btn>
-        <v-btn text @click="scroll('projects-scroll')" class="px-0 pr-2 px-sm-2 px-md-4">
+        <v-btn text @click="scroll('projects-scroll')" class="pl-0 pr-2 px-sm-2 px-md-4">
             Portfolio
         </v-btn>
-        <v-btn text href="https://www.upwork.com/freelancers/~01889fb0e8f4f710b7" target="_blank" class="px-0 px-sm-2 px-md-4">
-            Upwork
+        <v-btn text href="https://github.com/BrandonWingerAir" target="_blank" class="px-0 px-sm-2 px-md-4">
+            Github
         </v-btn>
-        <v-btn text @click="scroll('about-scroll')" class="px-0 px-sm-2 px-md-4">
+        <v-btn text @click="scroll('about-scroll')" class="pl-0 pr-2 px-sm-2 px-md-4">
             About
         </v-btn>
         <v-btn text @click="scroll('contact')" class="px-0 px-sm-2 px-md-4">
