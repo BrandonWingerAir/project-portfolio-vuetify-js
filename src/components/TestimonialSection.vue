@@ -1,6 +1,6 @@
 <template>
-  <v-card id="testimonials-carousel" class="mx-auto my-12 text-center pt-4 grey" width="75%">
-        <h2 class="mb-4 grey--text text--darken-4">Testimonials</h2>
+  <v-card id="testimonials-carousel" class="mx-auto my-12 text-center pt-4 bg-color-3" width="75%">
+        <h2 class="mb-4 grey--text text--lighten-4">Testimonials</h2>
         <hr>
         <v-carousel hide-delimiters>
             <v-carousel-item
@@ -9,17 +9,17 @@
             >
               <v-sheet
                 height="100%"
-                color="grey"
+                class="bg-color-4"
               >
                 <v-row
-                  class="fill-height grey--text text--darken-4"
+                  class="fill-height grey--text text--lighten-2"
                   align="center"
                   justify="center"
                 >
-                  <div id="review-container">
-                    <p class="black--text">"{{ item.review }}"</p>
+                  <div class="review-container">
+                    <p class="grey--text text--lighten-3">"{{ item.review }}"</p>
                     <h4>{{ item.client }}</h4>
-                    <h5 class="mb-4">Project: {{ item.project }}</h5>
+                    <h5 class="mb-6">Project: {{ item.project }}</h5>
                     <v-btn :href="item.link">View Rating</v-btn>
                   </div>
                 </v-row>
@@ -74,9 +74,22 @@
 <style scoped>
 #testimonials-carousel {
   max-width: 800px;
+  height: 558px;
+  border: 1px solid #616161;
 }
 
-#review-container {
+.bg-color-3 {
+  background-color: #212121;
+}
+
+.bg-color-4 {
+  background: #424242;
+  border-bottom: 1px solid #616161;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.review-container {
   padding: 0 75px;
 }
 </style>
