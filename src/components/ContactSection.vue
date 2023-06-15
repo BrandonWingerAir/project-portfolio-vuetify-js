@@ -5,10 +5,10 @@
                 <div class="block-2_section-1" id="contact">
                     <v-row>
                         <v-col cols="12" sm="7">
-                            <h1 class="white--text contact-text">
+                            <h4 class="white--text text-h4 contact-text">
                             Let's work,
                             <br> connect:
-                            </h1>
+                            </h4>
                             <p class="grey--text">
                             brandon.air.web@gmail.com
                             <br>
@@ -24,11 +24,12 @@
             </div>
 
             <div class="block-3 py-12 mx-auto">
-                <h4 class="white--text text-center text-h4 pb-1">
+                <h3 class="white--text text-center text-h4 pb-1">
                     Additional Certificates
-                </h4>
+                </h3>
                 <hr width="345" class="mx-auto mb-16">
-                <v-row>
+
+                <v-row class="mb-6">
                     <v-col cols="6" sm="3" md="2">
                         <a href="https://www.sololearn.com/profile/3156577" target="_blank" class="white--text text-decoration-none">
                             <v-img src="sololearn/1014.webp" contain/>
@@ -197,10 +198,15 @@
     vertical-align: middle;
     text-align: left;
     margin-top: 250px;
+    border: 1px solid #424242;
 }
 
 .block-3 {
     width: 75%;
+}
+
+h4 {
+    font-size: 31px;
 }
 
 /* .bottomNavbar {

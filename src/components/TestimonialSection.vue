@@ -1,6 +1,6 @@
 <template>
   <v-card id="testimonials-carousel" class="mx-auto my-12 text-center pt-4 bg-color-3" width="75%">
-        <h2 class="mb-4 grey--text text--lighten-4">Testimonials</h2>
+        <h2 class="mb-4 grey--text text--darken-4">Testimonials</h2>
         <hr>
         <v-carousel hide-delimiters>
             <v-carousel-item
@@ -75,16 +75,24 @@
 #testimonials-carousel {
   max-width: 800px;
   height: 558px;
-  border: 1px solid #616161;
+  border: 1px solid #424242;
 }
 
 .bg-color-3 {
-  background-color: #212121;
+  background: #e0e0e0;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+hr {
+  border-color: #212121;
 }
 
 .bg-color-4 {
-  background: #424242;
-  border-bottom: 1px solid #616161;
+  background-color: #212121;
+  border-bottom: 1px solid #424242;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
