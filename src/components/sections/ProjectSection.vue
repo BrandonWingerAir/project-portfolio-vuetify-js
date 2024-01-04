@@ -11,8 +11,8 @@
 
         <!-- Project 1 Image-->
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="3" order-sm="3" order="3">
-            <v-card href="https://www.indesigns.space/" target="_blank" class="px-6 py-12" outlined tile color="#eeeeee">
-                <v-img src="indesigns-interior-decor.png" class="project-img" contain></v-img>
+            <v-card href="https://philipcomanphotography.com/" target="_blank" class="px-6 py-12" outlined tile color="#eeeeee">
+                <v-img src="philip-coman-photography-site.png" class="project-img" contain></v-img>
             </v-card>
         </v-col>
         
@@ -25,8 +25,8 @@
 
         <!-- Project 1 Info-->
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="5" order-sm="4" order="4">
-            <v-btn color="black" dark text class="px-3 mr-1" href="https://www.indesigns.space/" target="_blank">
-                inDesigns© Page (Branding & Vuetify)
+            <v-btn color="black" dark text class="px-3 mr-1" href="https://philipcomanphotography.com/" target="_blank">
+                Photographer Site (HTML/CSS & Vuetify)
             </v-btn>
             <v-btn color="#0091ea" dark text class="px-3" href="https://github.com/BrandonWingerAir/interior-decor-vuetify-js" target="_blank">
                 View Code
@@ -37,7 +37,7 @@
         <!-- Project 3 Info-->
         <v-col md="3" offset-md="3" sm="10" offset-sm="1" order-md="9" order-sm="8" order="8">
             <v-btn color="black" dark text class="px-3 mr-1" href="https://brandonwingerair.github.io/matrix-multi-calculator-js/ " target="_blank">
-                Multi-step Calculator (HTML/CSS, JS & PHP)
+                Matrix Calculator (JS, WordPress & PHP)
             </v-btn>
             <v-btn color="#0091ea" dark text class="px-3" href="https://github.com/BrandonWingerAir/matrix-multi-calculator-js" target="_blank">
                 View Code
@@ -54,15 +54,15 @@
         
         <!-- Project 4 Image-->
         <v-col md="3" sm="10" offset-sm="1" order-md="8" order-sm="9" order="9" class="mr-offset">
-            <v-card href="https://brandonwingerair.github.io/kanban-board-app-js/" target="_blank" class="px-6 py-12" outlined tile color="#eeeeee">
-                <v-img src="kanban-web-app-js.png" class="project-img" contain></v-img>
+            <v-card href="https://blog.brandonwinger-air.com/" target="_blank" class="px-6 py-12" outlined tile color="#eeeeee">
+                <v-img src="responsive-thumbnail-blog-portfolio.png" class="project-img" contain></v-img>
             </v-card>
         </v-col>
 
         <!-- Project 2 Info-->
         <v-col md="3" sm="10" offset-sm="1" order-md="6" order-sm="6" order="6" class="mr-offset">
             <v-btn color="black" dark text class="px-3 mr-1" href="https://brandonwinger-air.com/web-project-calculator/" target="_blank">
-                Cost & Time Estimator (Bulma + jQuery)
+                Cost + Time Estimator (Bulma & jQuery)
             </v-btn>
             <v-btn color="#0091ea" dark text class="px-3" href="https://github.com/BrandonWingerAir/web-project-cost-estimator" target="_blank">
                 View Code
@@ -72,8 +72,8 @@
 
         <!-- Project 4 Info-->
         <v-col md="3" sm="10" offset-sm="1" order-md="10" order-sm="10" order="10" class="mr-offset">
-            <v-btn color="black" dark text class="px-3 mr-1" href="https://brandonwingerair.github.io/kanban-board-app-js/" target="_blank">
-                Kanban Board (HTML/CSS & JavaScript)
+            <v-btn color="black" dark text class="px-3 mr-1" href="https://blog.brandonwinger-air.com/" target="_blank">
+                Blog Website (Nuxt, Tailwind & GraphQL)
             </v-btn>
             <v-btn color="#0091ea" dark text class="px-3" href="https://github.com/BrandonWingerAir/kanban-board-app-js" target="_blank">
                 View Code
@@ -82,12 +82,6 @@
         </v-col>
     </v-row>
 </template>
-
-<script>
-    export default {
-        
-    }
-</script>
 
 <style scoped>
 .mr-offset {
@@ -122,6 +116,12 @@
 @media only screen and (max-width: 600px) {
   .view-all-btn {
     right: 0;
+  }
+}
+
+@media only screen and (max-width: 438px) {
+  .v-btn {
+    font-size: 12px;
   }
 }
 </style>

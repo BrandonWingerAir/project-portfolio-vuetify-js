@@ -9,11 +9,14 @@
                     mdi-palette-swatch
                   </v-icon>
                   <h3 class="ml-3 mt-4">UI/UX</h3>
-                  <p class="text--lighten-1 ml-3 mt-6">
-                    ● Responsive websites, cross-device applications & PWA's
-                    <br>
-                    ● JavaScript animation, advanced calculator and games
-                  </p>
+                  <ul class="text--lighten-1 ml-3 mt-5 mb-4">
+                    <li>
+                      Responsive websites, cross-device applications & PWA's
+                    </li>
+                    <li>
+                      JavaScript animation, advanced calculators and interactive games
+                    </li>
+                  </ul>
                   <v-btn color="#0091ea" dark text @click="scroll('projects-scroll')">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
@@ -25,11 +28,14 @@
                     mdi-shopping
                   </v-icon>
                   <h3 class="white--text ml-3 mt-4">E-Commerce</h3>
-                  <p class="white--text text--lighten-2 ml-3 mt-6">
-                    ● WooCommerce (WordPress), PayPal & Stripe integration
-                    <br>
-                    ● Custom designs or theme additions and QA/improvement
-                  </p>
+                  <ul class="white--text text--lighten-2 ml-3 mt-5 mb-4">
+                    <li>
+                      WooCommerce (WordPress), PayPal & Stripe integration
+                    </li>
+                    <li>
+                      Custom designs or theme additions and QA/improvement
+                    </li>
+                  </ul>
                   <v-btn dark text @click="scroll('projects-scroll')">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>
@@ -41,11 +47,14 @@
                     mdi-material-design
                   </v-icon>
                   <h3 class="ml-3 mt-4">Digital Production</h3>
-                  <p class="text--lighten-1 ml-3 mt-6">
-                    ● Documents & graphics (Logos, photograph editing etc.)
-                    <br>
-                    ● Design/AV software, engineering and multimedia branding
-                  </p>
+                  <ul class="text--lighten-1 ml-3 mt-5 mb-4">
+                    <li>
+                      Documents & graphics (Logos, photograph editing etc.)
+                    </li>
+                    <li>
+                      Design/AV software, engineering and multimedia branding
+                    </li>
+                  </ul>
                   <v-btn color="#0091ea" dark text @click="scroll('projects-scroll')">
                     more info
                     <v-icon right>mdi-arrow-right</v-icon>

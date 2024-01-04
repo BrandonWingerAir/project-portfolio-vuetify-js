@@ -92,7 +92,7 @@ hr {
 }
 
 .bg-color-4 {
-  background-color: #f5f5f5;
+  background-color: #fff;
   border-bottom: 2px solid #212121;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -100,5 +100,9 @@ hr {
 
 .review-container {
   padding: 0 75px;
+}
+
+.v-icon {
+  padding: 20px !important;
 }
 </style>

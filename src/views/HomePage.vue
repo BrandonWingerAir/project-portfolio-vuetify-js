@@ -1,6 +1,6 @@
 <template>
   <v-app id="home" :style="{ background: $vuetify.theme.themes.light.background }">
-    <HeaderSection/>
+    <SiteHeader/>
 
     <v-container fluid>
       <HeroSection/>
@@ -8,32 +8,35 @@
       <ProjectSection/>
       <TestimonialSection/>
       <ContactSection/>
+      <CertificateSection/>
     </v-container>
 
-    <FooterSection/>
+    <SiteFooter/>
   </v-app>
 </template>
 
 <script>
-  import HeaderSection from '../components/site/HeaderSection'
-  import HeroSection from '../components/HeroSection'
-  import AboutSection from '../components/AboutSection'
-  import ProjectSection from '../components/ProjectSection'
-  import TestimonialSection from '../components/TestimonialSection'
-  import ContactSection from '../components/ContactSection'
-  import FooterSection from '../components/site/FooterSection'
+  import SiteHeader from '../components/SiteHeader';
+  import HeroSection from '../components/sections/HeroSection';
+  import AboutSection from '../components/sections/AboutSection';
+  import ProjectSection from '../components/sections/ProjectSection';
+  import TestimonialSection from '../components/sections/TestimonialSection';
+  import ContactSection from '../components/sections/ContactSection';
+  import CertificateSection from '../components/sections/CertificateSection';
+  import SiteFooter from '../components/SiteFooter';
 
   export default {
     name: 'HomePage',
 
     components: {
-      HeaderSection,
+      SiteHeader,
       HeroSection,
       AboutSection,
       ProjectSection,
       TestimonialSection,
       ContactSection,
-      FooterSection
+      CertificateSection,
+      SiteFooter
     },
   }
 </script>

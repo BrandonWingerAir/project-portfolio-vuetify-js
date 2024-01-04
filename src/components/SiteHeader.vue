@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar app dark flat class="grey lighten-4 px-8" max-width="100vw">
+    <v-app-bar app dark flat class="white lighten-4 px-8" max-width="100vw">
         <v-btn icon @click="scroll('home')">
             <v-icon color="#0091ea">fa-solid fa-globe</v-icon>
         </v-btn>
@@ -7,15 +7,18 @@
         <v-btn text @click="scroll('home')" class="xs-hide black--text">
             Home
         </v-btn>
+        <v-btn text href="https://blog.brandonwinger-air.com/" target="_blank" class="pl-0 pr-2 px-sm-2 px-md-4 black--text">
+            Blog
+        </v-btn>
         <v-btn text @click="scroll('projects-scroll')" class="pl-0 pr-2 px-sm-2 px-md-4 black--text">
             Portfolio
         </v-btn>
         <v-btn text href="https://github.com/BrandonWingerAir" target="_blank" class="px-0 px-sm-2 px-md-4 black--text">
             Github
         </v-btn>
-        <v-btn text @click="scroll('about-scroll')" class="pl-0 pr-2 px-sm-2 px-md-4 black--text">
+        <!-- <v-btn text @click="scroll('about-scroll')" class="pl-0 pr-2 px-sm-2 px-md-4 black--text">
             About
-        </v-btn>
+        </v-btn> -->
         <v-btn text @click="scroll('contact')" class="px-0 px-sm-2 px-md-4 black--text">
             Contact
         </v-btn>
