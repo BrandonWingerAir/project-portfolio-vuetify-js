@@ -4,8 +4,8 @@
             <v-img src="computer-tablet-and-smartphone.png" class="hero-img" max-height="500" contain></v-img>
         </v-col>
         <v-col sm="6" class="hero-block">
-            <h5 class="light-blue--text text-darken-3 intro-text">Hello, I'm Brandon.</h5>
-            <h1 class="white--text">Developer | Designer</h1>
+            <h5 class="blue--text text-darken-3 intro-text">Hello, I'm Brandon.</h5>
+            <h1 class="black--text">Full-stack Developer | UI Designer</h1>
             <p class="grey--text">
                 ~ Enterprise Web & Mobile App Dev Degree (Distinction) + self-study
                 <br>
@@ -13,8 +13,8 @@
                 <br>
                 ~ PHP, Linux, MySQL/MongoDB (Vue.js, Laravel, CSS frameworks etc.)
             </p>
-            <v-btn tile color="a7121d" class="text-capitalize" dark href="https://brandonwinger-air.com/web-project-calculator/" target="_blank">
-                <v-icon color="#039be5" class="mr-3">
+            <v-btn tile color="#0091ea" class="text-capitalize" dark href="https://brandonwinger-air.com/web-project-calculator/" target="_blank">
+                <v-icon color="#bdbdbd" class="mr-3">
                     mdi-calculator
                 </v-icon>
                 Instant Cost & Time Estimate

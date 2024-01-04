@@ -12,15 +12,15 @@
                 class="bg-color-4"
               >
                 <v-row
-                  class="fill-height grey--text text--lighten-2"
+                  class="fill-height text--lighten-2"
                   align="center"
                   justify="center"
                 >
                   <div class="review-container">
-                    <p class="grey--text text--lighten-3">"{{ item.review }}"</p>
+                    <p class="text--lighten-3">"{{ item.review }}"</p>
                     <h4>{{ item.client }}</h4>
                     <h5 class="mb-6">Project: {{ item.project }}</h5>
-                    <v-btn :href="item.link">View Rating</v-btn>
+                    <v-btn :href="item.link" color="#e0e0e0">View Rating</v-btn>
                   </div>
                 </v-row>
               </v-sheet>
@@ -75,7 +75,8 @@
 #testimonials-carousel {
   max-width: 800px;
   height: 558px;
-  border: 1px solid #424242;
+  border: 2px solid #212121;
+  border-radius: 0;
 }
 
 .bg-color-3 {
@@ -91,10 +92,10 @@ hr {
 }
 
 .bg-color-4 {
-  background-color: #212121;
-  border-bottom: 1px solid #424242;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #212121;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .review-container {

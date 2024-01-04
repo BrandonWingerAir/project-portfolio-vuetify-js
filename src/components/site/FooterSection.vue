@@ -1,11 +1,11 @@
 <template>
     <v-footer dark padless>
-        <v-card flat tile class="black white--text py-5 px-5 text-center" width="100%">
+        <v-card flat tile class="grey lighten-4 py-5 black--text px-5 text-center" width="100%">
             <v-row>
                 <v-col cols="12" sm="4">
-                    <v-card-text class="white--text pt-2">
+                    <v-card-text class="pt-2">
                         <v-btn icon @click="scroll('home')">
-                            <v-icon color="#039be5">fa-solid fa-globe</v-icon>
+                            <v-icon color="#0091ea">fa-solid fa-globe</v-icon>
                         </v-btn>
                     </v-card-text>
                 </v-col>
@@ -15,7 +15,7 @@
                         <v-btn 
                             v-for="icon in icons" 
                             :key="icon" 
-                            class="mx-1 white--text" 
+                            class="mx-1 black--text" 
                             icon 
                             :href="icon.url"
                             target="_blank"
@@ -28,7 +28,7 @@
                 <v-col cols="12" sm="4">
                     <v-card-text class="pt-2">
                         <v-btn class="white--text" icon>
-                            <v-icon color="#039be5">mdi-brush-variant</v-icon>
+                            <v-icon color="#0091ea">mdi-brush-variant</v-icon>
                         </v-btn>
                         Brandon Winger-Air | 2023
                     </v-card-text>
