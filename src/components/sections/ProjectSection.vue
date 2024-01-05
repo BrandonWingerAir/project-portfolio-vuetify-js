@@ -75,7 +75,7 @@
             <v-btn color="black" dark text class="px-3 mr-1" href="https://blog.brandonwinger-air.com/" target="_blank">
                 Blog Website (Nuxt, Tailwind & GraphQL)
             </v-btn>
-            <v-btn color="#0091ea" dark text class="px-3" href="https://github.com/BrandonWingerAir/kanban-board-app-js" target="_blank">
+            <v-btn color="#0091ea" dark text class="px-3" href="https://github.com/BrandonWingerAir/portfolio-nuxt-tailwind-graphql" target="_blank">
                 View Code
                 <v-icon right>mdi-arrow-right</v-icon>
             </v-btn>
